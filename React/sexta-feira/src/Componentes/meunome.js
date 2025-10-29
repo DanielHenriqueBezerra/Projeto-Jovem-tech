@@ -1,4 +1,4 @@
-function Meu_nome({nome}) {
+function Meunome({nome}) {
   return (
     <div>
       <h1>Frase do dia: {nome}</h1>
@@ -7,4 +7,4 @@ function Meu_nome({nome}) {
 
 
 }
-export default Meu_nome;
+export default Meunome;

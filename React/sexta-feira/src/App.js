@@ -1,9 +1,9 @@
 import logo from './google.png';
 import './App.css';
 import Jovemtech from './Componentes/jovemtech';
-import Meu_nome from './Componentes/meu_nome';
+import Meunome from './Componentes/meunome';
 import Relogio from './Componentes/Relogio';
-
+import ProcuradosOneP from './Componentes/ProcuradosOneP';
 
 function App() {
   return (
@@ -12,8 +12,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         <Jovemtech nome="Microsoft" idade ="27"  />
-        <Meu_nome nome="Seja livre em um mundo perdido" />
+        <Meunome nome="Seja livre em um mundo perdido" />
         <Relogio />
+        <ProcuradosOneP/>
       </header>
     </div>
   );
