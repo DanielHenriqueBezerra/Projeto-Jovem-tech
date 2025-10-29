@@ -1,7 +1,7 @@
-function Meu_nome() {
+function Meu_nome({nome}) {
   return (
     <div>
-      <h1>Daniel</h1>
+      <h1>Frase do dia: {nome}</h1>
     </div>
   );
 
