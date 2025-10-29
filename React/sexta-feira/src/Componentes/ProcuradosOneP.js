@@ -16,7 +16,7 @@ function ProcuradosOneP() {
         const res = await fetch("https://api.api-onepiece.com/v2/characters/en");
         const dados = await res.json();
 
-        console.log("🧩 Dados da API:", dados); // Mostra os dados no console
+        console.log("🧩 Dados da API:", dados[0].fruit.name); // Mostra os dados no console
 
         // Atualiza estado com os dados
         // ⚡ A API retorna um array direto
