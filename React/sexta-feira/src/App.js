@@ -10,11 +10,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Jovemtech />
-        <Meu_nome />
+        
+        <Jovemtech nome="Microsoft" idade ="27"  />
+        <Meu_nome nome="Seja livre em um mundo perdido" />
         <Relogio />
       </header>
     </div>
   );
 }
+
+
  export default App;
