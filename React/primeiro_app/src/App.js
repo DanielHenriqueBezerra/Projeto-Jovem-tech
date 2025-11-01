@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Compo from "./Componentes/Compo";
 import Contador from "./Componentes/Contador";
-
+import OnePiece from "./Componentes/OnePiece_Api"
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
       <button onClick={() => AtualizarCurso()} >Digite</button>
       <button onClick={() => AtualizarNome()}>Mudar nome do aluno</button>
 
-
+      <OnePiece/>
       <Contador />
       <Compo />
       <Usar />
