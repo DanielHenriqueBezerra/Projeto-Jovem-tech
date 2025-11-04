@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Compo from "./Componentes/Compo";
 import Contador from "./Componentes/Contador";
 import OnePiece from "./Componentes/OnePiece_Api"
-
+import Anuncio from "./React/Api_anuncio/componentes/Anuncios.js"
 
 function App() {
 
@@ -40,7 +40,7 @@ function App() {
       <h3>Nome do aluno: {nome}</h3>
       <button onClick={() => AtualizarCurso()} >Digite</button>
       <button onClick={() => AtualizarNome()}>Mudar nome do aluno</button>
-
+      <Anuncio/>
       <OnePiece/>
       <Contador />
       <Compo />
